@@ -3,10 +3,10 @@
 ## 👩‍💻 Author — Aditi Khare  
 Writing on AI research, product thinking, and system architecture  
 
-🌐 **Website:** [aditikhare.com](https://aditikhare.com)  
-🔗 **GitHub Repository:** [AI Product Field Guide](https://github.com/aditikhare007/ai-product-field-guide/)  
-🤗 **Hugging Face:** [View on Hugging Face](https://huggingface.co/AditiShashiKhare)  
-💼 **LinkedIn:** [Aditi Khare](https://www.linkedin.com/in/aditikhare)  
+🌐 **Website:** https://aditikhare.com  
+🔗 **GitHub:** https://github.com/aditikhare007/ai-product-field-guide  
+🤗 **Hugging Face:** https://huggingface.co/AditiShashiKhare  
+💼 **LinkedIn:** https://www.linkedin.com/in/aditikhare  
 
 ---
 
@@ -37,15 +37,55 @@ This guide exists to help teams avoid the **most common — and most expensive �
 
 ---
 
+## 🧭 Products Index (Start Here)
+
+Each product below is a **self-contained product note**.  
+All links work both on **GitHub** and **GitHub Pages**.
+
+---
+
+### 🧠 GenAI Foundations
+
+1. **[Prompt Evaluation Engine (When You Have No Labels)](products/01-prompt-eval-engine/)**  
+   Estimating prompt reliability when ground truth does not exist.
+
+2. **[Context Compression Playbook](products/02-context-compression/)**  
+   Reducing context size while preserving task-critical signal.
+
+3. **[Why RAG Systems Fail (A Practical Taxonomy)](products/03-rag-failure-taxonomy/)**  
+   Understanding retrieval, context, and answer-synthesis failure modes.
+
+---
+
+### 🤖 Agentic AI
+
+4. **[Agent Reliability Scorecard (What Breaks First)](products/04-agent-reliability-scorecard/)**  
+   A structured way to evaluate agent behavior, retries, and drift.
+
+5. **[Tool-Calling Failure Simulator (Conceptual)](products/05-tool-calling-failure-sim/)**  
+   Designing agents that behave predictably when tools partially or silently fail.
+
+---
+
+### 🔌 Model Context Protocol (MCP)
+
+6. **[MCP Mental Model for Product Teams](products/06-mcp-mental-model/)**  
+   A plain-language explanation of what MCP changes — and when it doesn’t.
+
+7. **[MCP-First AI Product Architecture](products/07-mcp-first-architecture/)**  
+   High-level architectural patterns for MCP-based AI products.
+
+---
+
 ## When This Guide Is Useful
 
-This repository will be especially useful if:
+This repository is especially useful if:
 
-- your prompts “worked last week” but not anymore  
+- your prompts worked last week but not anymore  
 - your agent behaves well in demos but not in production  
-- your RAG system looks correct but gives wrong answers  
+- your RAG system looks correct but answers incorrectly  
 - your context window keeps growing without improving outcomes  
-- you’re exploring MCP but unsure where it actually fits  
+- MCP feels promising but unclear  
 
 If none of these resonate, this guide may not be for you.
 
@@ -53,10 +93,10 @@ If none of these resonate, this guide may not be for you.
 
 ## What This Repo Is
 
-- A **curated collection** of public-safe AI product designs  
-- Focused on **failure modes, evaluation, and system boundaries**  
-- Written for builders, product leaders, and applied researchers  
-- README-first by design — clarity over code volume  
+- A curated collection of **public-safe AI product designs**
+- Focused on **failure modes, evaluation, and system boundaries**
+- Written for builders, product leaders, and applied researchers
+- README-first by design — clarity over code volume
 
 Each entry is framed as an **AI product**, not an experiment.
 
@@ -71,55 +111,6 @@ Each entry is framed as an **AI product**, not an experiment.
 
 Some details are intentionally excluded.  
 That’s not an omission — it’s a boundary.
-
----
-
-## 🗂️ Products
-
-### 🧠 GenAI Foundations
-
-1. **Prompt Evaluation Engine (When You Have No Labels)**  
-   How to reason about prompt reliability when ground truth doesn’t exist.
-
-2. **Context Compression Playbook**  
-   Practical strategies to reduce context size while preserving task-critical signal.
-
-3. **Why RAG Systems Fail (A Practical Taxonomy)**  
-   A structured breakdown of retrieval, context, and answer-synthesis failures.
-
----
-
-### 🤖 Agentic AI
-
-4. **Agent Reliability Scorecard (What Breaks First)**  
-   A clear rubric for evaluating agent behavior, tool usage, retries, and drift.
-
-5. **Tool-Calling Failure Simulator (Conceptual)**  
-   Designing agents that behave predictably when tools timeout, partially fail, or return incorrect data.
-
----
-
-### 🔌 Model Context Protocol (MCP)
-
-6. **MCP Mental Model for Product Teams**  
-   A plain-language explanation of what MCP changes — and when it doesn’t help.
-
-7. **MCP-First AI Product Architecture**  
-   High-level architectural patterns for MCP-based systems, without leaking implementation details.
-
----
-
-## How to Use This Repo
-
-This guide is not meant to be read top-to-bottom.
-
-Use it as:
-- a reference during AI system design  
-- a checklist before production rollout  
-- a shared vocabulary for AI product discussions  
-- a sanity check when something feels “off”  
-
-If something feels incomplete — that’s intentional.
 
 ---
 
@@ -141,7 +132,5 @@ This guide favors:
 - 🟡 Products added deliberately, not frequently  
 - 🔒 Deeper implementations are intentionally excluded by design.
 
-This repository shares **ai products insights only**.  
+This repository shares **AI product insights only**.  
 Advanced execution details and internal metrics are excluded by design.
-
----
