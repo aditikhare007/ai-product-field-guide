@@ -39,6 +39,8 @@ This guide exists to help teams avoid the **most common — and most expensive �
 
 ## 🧭 Products Index (Start Here)
 
+> Each product page is part of the **AI Product Field Guide** — practical notes on building reliable AI systems.
+
 Each product below is a **self-contained product note**.  
 All links work both on **GitHub** and **GitHub Pages**.
 
