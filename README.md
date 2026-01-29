@@ -64,10 +64,10 @@ Each entry is framed as an **AI product**, not an experiment.
 
 ## What This Repo Is Not
 
-- ❌ Not a framework or SDK  
-- ❌ Not end-to-end implementations  
-- ❌ Not proprietary metrics or pipelines  
-- ❌ Not agent hype or demo content  
+- Not a framework or SDK  
+- Not end-to-end implementations  
+- Not proprietary metrics or pipelines  
+- Not agent hype or demo content  
 
 Some details are intentionally excluded.  
 That’s not an omission — it’s a boundary.
@@ -139,7 +139,7 @@ This guide favors:
 
 - 🟢 Actively evolving  
 - 🟡 Products added deliberately, not frequently  
-- 🔒 Deeper implementations intentionally kept private  
+- 🔒 Deeper implementations are intentionally excluded by design.
 
 This repository shares **ai products insights only**.  
 Advanced execution details and internal metrics are excluded by design.
