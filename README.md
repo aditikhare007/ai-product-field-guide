@@ -5,10 +5,12 @@
 - Enterprise AI Product, Platform & Applied Research Leader 
 - Writing on AI research, product thinking, and system architecture  
 
-- 🌐 **Website:** [aditikhare.com](https://aditikhare.com)  
-- 🔗 **GitHub:** [AI Product Field Guide](https://github.com/aditikhare007/ai-product-field-guide/)  
-- 🤗 **Hugging Face:** [AditiShashiKhare](https://huggingface.co/AditiShashiKhare)  
-- 💼 **LinkedIn:** [Aditi Khare](https://www.linkedin.com/in/aditi-khare-5840977b/)  
+## 🌐 Presence  
+
+  🌐 **Website:** [aditikhare.com](https://aditikhare.com)  
+  🔗 **GitHub:** [AI Product Field Guide](https://github.com/aditikhare007/ai-product-field-guide/)  
+  🤗 **Hugging Face:** [AditiShashiKhare](https://huggingface.co/AditiShashiKhare)  
+  💼 **LinkedIn:** [Aditi Khare](https://www.linkedin.com/in/aditi-khare-5840977b/)  
 
 ---
 
